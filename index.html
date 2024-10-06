@@ -11,51 +11,58 @@
     <div>
         <header>
             <h1 style="color: red; text-align: center; font-size: 30px;">Titulo de la pagina</h1>
+            <!--Tipos de enlaces
+            1 Enlace absoluto> Hacen referencia a recursos los cuales se encuntrasn fuera del poryecto
+            2 Enlace relativo> hace referencia a recursos los cuales esten dentro de mi proyecto no 
+                necesario que este dentro del documento HTML
+            3 Enlace a un elemenrto> Hace referencia a un elemento del mismo documento donde estoy
+                trabajando mediante un identificador
+            La etiqueta que vamos a utilizar es la etiqueta <a></a>-->
+            <h2>enlaces:</h2>
+            <ul>
+                <a href="https://youtu.be/eFKhmj2jzlk?si=LRA5HZsSTvQIVyBT" target="_blank"><li>Enlace absoluto</li></a>
+                <a href="vistas/contacto.html"><li>Enlace relativo</li></a>
+                <a href="#personal"><li>Enlace a un elemento</li></a>
+            </ul>
         </header>
     </div>
 
-    <section>
-        <h2>Hoja de Vida</h2>
-        <p>Nombre: Israel Pabon</p>
-        <p>Edad: 23</p>
-        <p>Profesion: Estudiante</p>
-        <!--Listas
-        Existen 2 tipos de listas ordendas y desordenadas-->
-        <h2>Lista desordenada</h2>
-        <ul>
-            <li>Ecuador</li>
-            <li>Peru</li>
-            <li>Colombia</li>
-        </ul>
-        <!--Listas ordenadas-->
-        <h2>Listas ordenadas</h2>
-        <ol>
-            <li>Independiendte</li>
-            <li>Liga</li>
-            <li>Mushuc runa</li>
-            <li>Catlica</li>
-        </ol>
+    <section id="personal">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam in, architecto amet 
+            voluptatem, laudantium eveniet quia itaque mollitia laborum earum incidunt? Voluptatem 
+            totam excepturi quas temporibus molestias et autem amet.
+        </p>
+    </section>
+    <!--Etiqueta de imagen-->
+    <section>   
+        <h2>Imagenes</h2>
+        <img src="img/imagen html.png" alt="Imagen html" title="Imagen Html" width="100px" height="100px">
     </section>
 
-    <!--Comentarios todo nuestro proyecto deve estar comentado sino, 
-    se descontara 1 punto de la nota final-->
-    <h1>Primera pagina</h1>
-    <h2>Subtitulo</h2>
-    <h3>titulo3</h3>
-    <h4>titulo4</h4>
-    <h5>titulo5</h5>
-    <h6>tiutlo6</h6>
-    <!--Contenedores-->
+    <!--Tabla-->
     <section>
-        <!--Contenedor mas pequeño}-->
-        <div>
-            <!--Contenedor aun mas pequeno-->
-            <article>
-
-            </article>
-        </div>
+        <table border="1px solid">
+            <thead>
+                <th>Pais</th>
+                <th>Continente</th>
+                <th>Poblacion</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ecuador</td>
+                    <td>America</td>
+                    <td>1800000</td>
+                </tr>
+                <tr>
+                    <td>Colombia</td>
+                    <td>America</td>
+                    <td>3000000</td>
+                </tr>
+            </tbody>
+            
+        </table>
     </section>
-
 
 
 </body>
